@@ -15,7 +15,7 @@ export class AppComponent {
       'type': 'server',
       'name': serverData.name,
       'content': serverData.content
-    })
+    });
   }
 
   onBlueprintAdded(blueprintData: {'name': string, 'content': string}) {
@@ -23,6 +23,6 @@ export class AppComponent {
       'type': 'blueprint',
       'name': blueprintData.name,
       'content': blueprintData.content
-    })
+    });
   }
 }
